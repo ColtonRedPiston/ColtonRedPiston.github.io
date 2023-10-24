@@ -86000,7 +86000,7 @@ var $async$zC=A.Y(function(d,e){if(d===1)return A.U(e,r)
 while(true)switch(s){case 0:j=t.N
 i=t.z
 s=2
-return A.a4(q.lV("15.156.146.212",8000,"api/login",A.aC(["Content-type","application/json"],j,j),A.aC(["username",a,"password",b],j,i)),$async$zC)
+return A.a4(q.lV("15.156.146.212",80,"api/login",A.aC(["Content-type","application/json"],j,j),A.aC(["username",a,"password",b],j,i)),$async$zC)
 case 2:h=e
 j=J.at(h)
 p=j.h(h,"tokens")
@@ -86023,7 +86023,7 @@ var $async$y7=A.Y(function(d,e){if(d===1)return A.U(e,r)
 while(true)switch(s){case 0:p=t.N
 o=J
 s=2
-return A.a4(q.lV("15.156.146.212",8000,"/api/updateRequest",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],p,p),A.aC(["request_id",b,"isApproved",!0],p,t.z)),$async$y7)
+return A.a4(q.lV("15.156.146.212",80,"/api/updateRequest",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],p,p),A.aC(["request_id",b,"isApproved",!0],p,t.z)),$async$y7)
 case 2:if(o.bt(e,"success")!=null)q.Xy(a)
 return A.V(null,r)}})
 return A.W($async$y7,r)},
@@ -86033,7 +86033,7 @@ var $async$yE=A.Y(function(d,e){if(d===1)return A.U(e,r)
 while(true)switch(s){case 0:p=t.N
 o=J
 s=2
-return A.a4(q.lV("15.156.146.212",8000,"/api/updateRequest",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],p,p),A.aC(["request_id",b,"isApproved",!1],p,t.z)),$async$yE)
+return A.a4(q.lV("15.156.146.212",80,"/api/updateRequest",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],p,p),A.aC(["request_id",b,"isApproved",!1],p,t.z)),$async$yE)
 case 2:if(o.bt(e,"success")!=null)q.Xz(a)
 return A.V(null,r)}})
 return A.W($async$yE,r)},
@@ -86043,7 +86043,7 @@ var $async$yw=A.Y(function(f,g){if(f===1)return A.U(g,r)
 while(true)switch(s){case 0:p=t.N
 o=J
 s=2
-return A.a4(q.lV("15.156.146.212",8000,"/api/requestTime",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],p,p),A.aC(["startTime",b,"endTime",c,"type",""+e,"comment","note"],p,t.z)),$async$yw)
+return A.a4(q.lV("15.156.146.212",80,"/api/requestTime",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],p,p),A.aC(["startTime",b,"endTime",c,"type",""+e,"comment","note"],p,t.z)),$async$yw)
 case 2:if(o.bt(g,"message")!=null)q.Xq(a)
 return A.V(null,r)}})
 return A.W($async$yw,r)},
@@ -86057,7 +86057,7 @@ WP(a){var s=0,r=A.X(t.z),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$vs=A.Y(function(b,c){if(b===1)return A.U(c,r)
 while(true)switch(s){case 0:e=t.N
 s=2
-return A.a4(q.uv("15.156.146.212",8000,"/api/userHistory",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],e,e)),$async$vs)
+return A.a4(q.uv("15.156.146.212",80,"/api/userHistory",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],e,e)),$async$vs)
 case 2:d=c
 e=J.at(d)
 p=e.h(d,"success")
@@ -86085,7 +86085,7 @@ var $async$xZ=A.Y(function(b,c){if(b===1)return A.U(c,r)
 while(true)switch(s){case 0:n=t.N
 l=J
 s=2
-return A.a4(q.uv("15.156.146.212",8000,"/api/getAllRequests",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],n,n)),$async$xZ)
+return A.a4(q.uv("15.156.146.212",80,"/api/getAllRequests",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],n,n)),$async$xZ)
 case 2:m=l.bt(c,"requests")
 q.f=A.a([],t.Lf)
 for(n=J.at(m),p=0;p<n.gq(m);++p){o=A.awO(n.h(m,p))
@@ -86096,7 +86096,7 @@ Wr(a){var s=0,r=A.X(t.z),q=this,p,o,n,m,l,k,j
 var $async$vj=A.Y(function(b,c){if(b===1)return A.U(c,r)
 while(true)switch(s){case 0:k=t.N
 s=2
-return A.a4(q.lV("15.156.146.212",8000,"/api/getCalendarData",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],k,k),A.aC(["firstMonthInt",8,"lastMonthInt",12],k,t.S)),$async$vj)
+return A.a4(q.lV("15.156.146.212",80,"/api/getCalendarData",A.aC(["Content-type","application/json","Authorization","Bearer "+A.i(q.c),"Accept","application/json"],k,k),A.aC(["firstMonthInt",8,"lastMonthInt",12],k,t.S)),$async$vj)
 case 2:j=c
 k=J.at(j)
 k.h(j,"success")
@@ -86428,7 +86428,7 @@ var $async$$0=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:A.Zb()
 A.Zb()
 s=2
-return A.a4(A.apy("http://15.156.146.212:8000/register",!0,!0,!0),$async$$0)
+return A.a4(A.apy("http://15.156.146.212:80/register",!0,!0,!0),$async$$0)
 case 2:return A.V(null,r)}})
 return A.W($async$$0,r)},
 $S:37}
